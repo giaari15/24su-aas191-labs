@@ -9,7 +9,9 @@
 
 /* Sets the overall background and ensures the content fits the screen height */
 html{
-    background-image: url("backgroundtexture.jpeg");
+    background-image: url("centipede.png");
+    background-size: 900px 1500px;
+    background-color: #212529;
 }
 
 html, body {
@@ -47,7 +49,7 @@ main {
 
 .portfolio {
     grid-area: portfolio; 
-    background-color: rgba(255, 54, 54, 0.669);
+    background-color: rgba(143, 0, 0, 0.291);
     display: grid;
     grid-template-areas: "button button"
                          "leftImg rightImg"
@@ -68,7 +70,7 @@ main {
 #map { 
     grid-area: map; 
     height: 150vh;
-    background-color: rgba(255, 54, 54, 0.669);
+    background-color: rgba(143, 0, 0, 0.291);
     border-style: double;
     border-width: 0.5rem;
 }
@@ -99,9 +101,10 @@ main {
 }
 
 #contents button {
-    background-color: rgb(31, 31, 31);
-    color: lightgrey;
-    border-color: transparent;
+    background-color: rgba(255, 241, 241, 0.721);
+    color: #212529;
+    font-weight: bold;
+    border-color: lightgray;
     padding-block: 0.25rem;
     padding-inline: 0.25rem;
 }
